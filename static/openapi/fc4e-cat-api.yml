@@ -1,0 +1,20 @@
+openapi: 3.0.1
+info:
+  title: FC4E CAT API
+  description: API for FC4C
+  version: 0.0.1
+servers:
+paths:
+  # /resources:
+  #   get:
+  #     summary: Returns a list of resources.
+  #     description: describe the resource
+  #     responses:
+  #       '200':    # status code
+  #         description: A JSON list of the resource items
+  #         content:
+  #           application/json:
+  #             schema: 
+  #               type: array
+  #               items: 
+  #                 type: string
