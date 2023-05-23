@@ -1,4 +1,6 @@
 ---
+id: intro
+title: Introduction
 sidebar_position: 1
 ---
 
@@ -10,6 +12,8 @@ The Compliance Assessment Toolkit will support the EOSC PID policy with services
 
 The component will create the following resources:
 
- - Vocabulary services, based on a conceptual model, that can be used to characterise, describe, and encode compliance regimes - with an operational version of the EOSC PID Compliance regime deployed. We will also include beta versions of other compliance assessment regimes - specifically FAIR and TRUST. These can be used as a starting point for operationalisation of additional regimes.
- - API services (REST APIs) that allows for the encoding, recording, and querying of compliance assessments. Operational examples will support EOSC PID Policy compliance, while FAIR and TRUST will be available as beta versions.
- - User Interfaces based on the APIs that support the use of the APIs within websites and applications.
+ - **Vocabulary services**, based on a conceptual model, that can be used to characterise, describe, and encode compliance regimes - with an operational version of the EOSC PID Compliance regime deployed. We will also include beta versions of other compliance assessment regimes - specifically FAIR and TRUST. These can be used as a starting point for operationalisation of additional regimes.
+ - **API services (REST APIs)** that allows for the encoding, recording, and querying of compliance assessments. Operational examples will support EOSC PID Policy compliance, while FAIR and TRUST will be available as beta versions.
+ - **User Interfaces** based on the APIs that support the use of the APIs within websites and applications.
+
+Read more
