@@ -47,7 +47,7 @@ pipeline {
         success {
             script{
                 if ( env.BRANCH_NAME == 'master' || env.BRANCH_NAME == 'devel' ) {
-                    slackSend( message: ":rocket: New version of fc4e-cat-doc docs deployed! Job: $JOB_NAME !\n <https://fc4e-cat.github.io/|See them here...>")
+                    slackSend( message: ":rocket: New version of fc4e-cat-doc docs deployed! Job: $JOB_NAME !\n <https://fc4e-cat.github.io/fc4e-cat-doc/|See them here...>")
                 }
             }
         }
