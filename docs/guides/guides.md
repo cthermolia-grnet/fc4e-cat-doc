@@ -8,6 +8,7 @@ sidebar_position: 1
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 ### Access Token Retrieval
 
 
@@ -33,6 +34,7 @@ To achieve this , the client must retrieve an Access Token , following the guide
    Click the access token button to initiate the process of retrieving an access token. This will trigger the necessary steps to obtain the token from the authentication server.</p>
 
 <p><b>4. Provide Required Information</b>
+
    
    Choose your preferred identity provider from the available options. After selecting the identity provider, enter your credentials.</p>
 
@@ -42,9 +44,11 @@ To achieve this , the client must retrieve an Access Token , following the guide
 
 
 
-<p>Once the token is retrieved the client can access to the FC4E CAT endpoint, either directly by applying HTTP requests to the <b>FC4E CAT API</b> or through the <b>FC4E CAT User Interfaces</b> or through the <b>FC4E CAT Swagger</b> </p>
+<p>Once the token is retrieved the client can access the FC4E CAT endpoints, either by applying HTTP requests to the <b>FC4E CAT API</b> directly or through the <b>FC4E CAT Swagger</b> </p>
 
-:::info FC4E CAT Components
+<p>Also the client can interact with the FC4E CAT endpoints through a graphical interface, the <b>FC4E CAT User Interface</b>    </p>
+
+:::info FC4E CAT Components. 
 
 <Tabs>
 
@@ -58,14 +62,6 @@ Once the client receives the access token, they should construct their HTTP requ
 The header's value starts with the word "Bearer" followed by a space and the actual access token.
 
 `Authorization: Bearer {{token}}`
-
-</TabItem>
-
-
- 
-<TabItem value="ui" label="User Interfaces"> 
-<p>You can access FC4E CAT User Interfaces <a href="https://cat.argo.grnet.gr"><b>here</b></a></p>
-
 </TabItem>
 
 <TabItem value="swagger" label="Swagger"> 
@@ -86,9 +82,14 @@ The header's value starts with the word "Bearer" followed by a space and the act
 
 </TabItem>
 
+ 
+<TabItem value="ui" label="User Interface"> 
+<p>You can access FC4E CAT User Interface <a href="https://cat.argo.grnet.gr"><b>here</b></a></p>
+
+
+</TabItem>
+
+
 </Tabs>
-<p>
-If you are a developer or want to learn more about FC4E CAT you can check the <b> More</b> section
-</p>
 
 
