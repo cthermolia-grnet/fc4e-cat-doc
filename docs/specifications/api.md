@@ -41,18 +41,18 @@ In general, an effective API design will have the following characteristics [5]:
 These are the minimum set of responses required for REST APIs.
 
 
-|Response|Description|Reference|
-| ------------- | ------------- | ------------- |
-|200 OK| Most common code used to indicate success. The actual response will depend on the request method used.|[1]|
-|201 Created|The request has been fulfilled and resulted in a new resource being created. |[1]|
-|202 Accepted|The request has been accepted for processing, but the processing has not been completed. |[1]|
-|204 No Content|The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation. |[1]|
-|304 Not Modified|If the client has performed a conditional GET request and access is allowed, but the document has not been modified, the server SHOULD respond with this status code.|[1]|
-|400 Bad Request|The request could not be understood by the server due to malformed syntax. The client SHOULD NOT repeat the request without modifications.| [1], [3]|
-|401 Unauthorised| Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. Error code response for missing or invalid authentication token.| [1], [3]|
-|403 Forbidden|The server understood the request, but is refusing to fulfil it. Authorization will not help and the request SHOULD NOT be repeated.| [1], [3]|
-|404 Not Found|The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible.|[1], [3]|
-|409 Conflict|Indicates that the request could not be processed because of conflict in the request, such as an edit conflict.|[1]|
-|500 Internal Server Error|The server encountered an unexpected condition which prevented it from fulfilling the request.|[1], [3]|
-|502 Bad Gateway|This indicates an invalid response from an upstream server.|[3]|
-|503 Service Unavailable| This indicates that something unexpected happened server side (It can be anything like server overload, some parts of the system failed, etc.).|[3]
+|Response|Description|
+| ------------- | ------------- | 
+|200 OK| Most common code used to indicate success. The actual response will depend on the request method used.|
+|201 Created|The request has been fulfilled and resulted in a new resource being created. |
+|202 Accepted|The request has been accepted for processing, but the processing has not been completed. |
+|204 No Content|The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation. |
+|304 Not Modified|If the client has performed a conditional GET request and access is allowed, but the document has not been modified, the server SHOULD respond with this status code.|
+|400 Bad Request|The request could not be understood by the server due to malformed syntax. The client SHOULD NOT repeat the request without modifications.|
+|401 Unauthorised| Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. Error code response for missing or invalid authentication token.|
+|403 Forbidden|The server understood the request, but is refusing to fulfil it. Authorization will not help and the request SHOULD NOT be repeated.|
+|404 Not Found|The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible.|
+|409 Conflict|Indicates that the request could not be processed because of conflict in the request, such as an edit conflict.|
+|500 Internal Server Error|The server encountered an unexpected condition which prevented it from fulfilling the request.|
+|502 Bad Gateway|This indicates an invalid response from an upstream server.|
+|503 Service Unavailable| This indicates that something unexpected happened server side (It can be anything like server overload, some parts of the system failed, etc.).|
