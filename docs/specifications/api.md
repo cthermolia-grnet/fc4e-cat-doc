@@ -1,6 +1,6 @@
 ---
 id: api_specs
-title:  Specification: API Design
+title:  Specification-API Design
 sidebar_position: 1
 ---
 
