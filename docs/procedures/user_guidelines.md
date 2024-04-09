@@ -34,7 +34,11 @@ At this step the user can click on the <b>Create</b> button and create an unfini
 <p> Test values are accumulated and decide the success of the criterio. </p>
 <p> User is able to view per critero, how many tests pass or fail. Also the user can view how many mandatory criteria pass/fail, the ranking of the assessment and if the assessment complies. </p> ![](/img/ranking_assessment.png)
 
-<p> Also the user, can view the guildelines that accompany the test,by hovering over the (i) icon, as in the following image. ![](/img/assessement_guidelines.png) </p> 
+
+
+<p> The user, can view the principle's description, by hovering over the (i) icon, as in the following image. ![](/img/assessement_principle_description.png) </p> 
+
+<p> Also, guidelines and best practices are provided to support each test, and help the user to decide actions in order to comply with the required standards. User, can view the guildelines that accompany the test,by clicking on the questionmark icon (?), as in the following image. ![](/img/assessment_guidelines.png) </p> 
 
 
 <p> The user can create the assessment or save if already created, by clicking at the <b>Create</b> button. At any step of filling the criteria, the user can create/save the results. As long as information is missing, the compliance state is considered unknown, while as long as the user has filled the criteria, the compliance state is considered pass or fail.  </p>
