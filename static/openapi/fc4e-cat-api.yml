@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: FC4E CAT API
   description: API for FC4C
-  version: 0.0.1
+  version: 1.0.0
 servers:
 paths:
   # /resources:
