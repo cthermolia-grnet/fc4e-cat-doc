@@ -17,7 +17,7 @@ The Validation Request serves as the first step in initiating the process of an 
 To manage validations, users should navigate to the **Validations** tab from the Personal Menu located on the left sidebar.
 
 <p align="center">
-  ![](/img/manage_validations.png)
+  ![](/img/validations/validations_manage.png)
 </p>
 
 ### Viewing Validations
@@ -33,14 +33,14 @@ Upon entering the **Validations** tab, users can view a comprehensive list of va
   - **Pending Review**
   - **Rejected**
 
-To view more details about a specific validation request, users can click the **Details** button ![](/img/details_validation_button.png) next to the validation. This will redirect them to a detailed page where further information about the validation is provided.
+To view more details about a specific validation request, users can click the **Details** button ![](/img/validations/details_validation_button.png) next to the validation. This will redirect them to a detailed page where further information about the validation is provided.
 
 ### Creating a New Validation
 
 To create a new validation request, users should click the **Create New** button, which will redirect them to the validation creation page.
 
 <p align="center">
-  ![](/img/create_new_validation.png)
+  ![](/img/validations/validations_create_new.png)
 </p>
 
 On the validation creation page, users will need to provide the following information:
