@@ -1,7 +1,7 @@
 ---
 id: user_guidelines
 title: Creating Compliance Assessments in CAT 
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ## Creating Compliance Assessments in CAT 
