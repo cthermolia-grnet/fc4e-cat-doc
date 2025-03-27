@@ -1,10 +1,10 @@
 ---
 id: manage_validations
-title: Manage Validations
+title: Validations
 sidebar_position: 2
 ---
 
-## The Validation process 
+### The Validation process 
 
 The first time a user logins to the service he is recognised as an **"Identified User"** , a user with an id that is assigned to him by the Authentication Service. The only data that the service keeps is the unique id. As an **"Identified User"** the user can only view the public assessments. No other actions are allowed . In order to start getting permissions and creating assessments is to be a  **"Validated User"** . 
 

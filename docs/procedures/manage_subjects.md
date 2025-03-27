@@ -1,6 +1,6 @@
 ---
 id: manage_subjects
-title: Manage Subjects
+title: Subjects
 sidebar_position: 3
 ---
 

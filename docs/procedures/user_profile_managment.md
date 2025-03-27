@@ -1,13 +1,13 @@
 ---
 id: user_profile_management
-title: Managing User Profile
+title: User Profile
 sidebar_position: 1
 ---
 
 ## Manage Profile
 <p>This is a guide about the required steps a user should follow to view and update their profile in the system. Below are the steps to manage the profile.</p>
 
-##### Step 1: View Profile
+### View Profile
 <p>To view the user's profile, the user should follow these steps:</p>
 
 1. Log in to the system with their credentials.
@@ -18,7 +18,7 @@ sidebar_position: 1
 
 The profile information will be displayed.
 
-##### Step 2: Update Profile Information
+### Update Profile Information
 <p>In this step, the user can update their profile details. The following fields should be filled:</p>
 
 + **Name (*):** The user should enter their full name.
