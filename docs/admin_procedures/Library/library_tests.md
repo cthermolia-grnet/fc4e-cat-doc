@@ -24,9 +24,9 @@ To manage Tests, a user should navigate to the **Library / Tests** tab from the 
 
 To create a new test, the user should click the **Create New** button which will redirect them to the Test modal screen.
 
-<div class="text--center"> 
-<img src="/img/library/tests/tests_create.png" alt="Siamese cat" style="width: 400" />
-</div>
+<p align="center">
+<img src="/img/library/tests/tests_create.png" alt="Creating a New Test" style={{width: 400}} />
+</p>
 
 On the creation page, users must provide key details about the test.
 
