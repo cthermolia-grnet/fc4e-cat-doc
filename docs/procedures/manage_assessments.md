@@ -17,6 +17,9 @@ To begin, the user should click the **Create New** button. **In the first step**
 
 ![Creating Assessment - Step 1](/img/assessments/assessment_create_step_1.png)
 
+
+#### Step 2
+
 **In the second step**, a form will appear where the user  can fill in the necessary details for the assessment, including the name and subject. 
 
 The main information the user should provide is the following:
@@ -30,11 +33,17 @@ Once he has filled in these fields, the user should click **Next**.
 
 ![Creating Assessment - Step 2](/img/assessments/assessment_create_step_2.png)
 
+#### Step 3
+
 **In the final step**, the principles, criteria, and tests associated with them will be displayed. Once the user has filled in the tests with the necessary information, he can click the **Create** button to create the assessment. Once created, the assessment will be added to his list of assessments, and he can proceed to manage it through editing, publishing, or sharing.
 
 ![Creating Assessment - Step 3](/img/assessments/assessment_create_step_3.png)
 
-The user can also navigate back and forth between steps by using the **Next** and **Prev** buttons. If the user needs to complete the assessment in stages, he can do a partial creation by clicking the **Create** button in any step to save your progress and return to it later.
+If the inserted test value complies with the benchmark, the criterio is considered successful, else it fails. Also the user can add evidences to prove their declaration of test values. Test values are accumulated and decide the success of the criterio. 
+
+User is able to view per critero, how many tests pass or fail. Also the user can view how many mandatory criteria pass/fail, the ranking of the assessment and if the assessment complies. The user, can view the principle's description, by hovering over the (i) icon. Guidelines and best practices are provided to support each test, and help the user to decide actions in order to comply with the required standards. User, can view the guildelines that accompany the test,by clicking on the questionmark icon (?).
+
+Finally, the user can navigate back and forth between steps by using the **Next** and **Prev** buttons. If the user needs to complete the assessment in stages, he can do a partial creation by clicking the **Create** button in any step to save your progress and return to it later.
 
 ### Importing an Assessment
 
@@ -83,12 +92,24 @@ Users can publish an assessment to make it visible to others. To publish an asse
 
 ![Publishing Assessment](/img/assessments/assessment_publish_dialog.png)
 
+### Commenting on an Assessment 
+
+One of the latest features is the commenting feature . It allows users to write comments to a specific assessment. This is used mainly from a group of people when they cooperate and filling together
+an assessment.  In order to start commenting to an assessment the user should click the button on the top right of the page "Comments". 
+
+By the time the user clicks the button a layer on the right of the page appears as in the following image. 
+
+![Publishing Assessment](/img/assessments/assessment_commenting.png)
+
+A user can create and edit his comments ,while at the same time he may see the comments written by other user that belong to the group filling the assessment. The service ensures that only users within the same assessment group can see each other’s comments.
+
 ### Sharing an Assessment
 
 Users can share an assessment with other users by clicking the "Share Assessment" button ![](/img/assessments/assessment_share_button.png). A dialog will open where the user can enter the email addresses of the users they wish to share the assessment with.
-After entering the emails, the user must click the **Confirm** button to share the assessment with each email provided. Additionally, there is a section called **Already Shared With** that displays all the users the assessment has been shared with, along with their emails. This allows users to easily manage sharing settings and ensure the assessment is shared appropriately.
+After entering the emails, the user must click the **Confirm** button to share the assessment with each email provided. By clicking the confirm button, an email is send to all the emails defined by the user. Additionally, there is a section called **Already Shared With** that displays all the users the assessment has been shared with, along with their emails. This allows users to easily manage sharing settings and ensure the assessment is shared appropriately. 
 
 ![Sharing Assessment](/img/assessments/assessment_share_dialog.png)
+
 
 ### Deleting an Assessment
 
