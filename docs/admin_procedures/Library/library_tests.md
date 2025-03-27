@@ -28,7 +28,7 @@ import tests_create from '/img/library/tests/tests_create.png';
 
 <p align="center">
 
-<img src={tests_create} alt="Creating a New Test" style={{width: 400}} />
+<img src={tests_create} alt="Creating a New Test" style={{width: 500}} />
 </p>
 
 On the creation page, users must provide key details about the test.
@@ -51,14 +51,19 @@ Once the necessary fields are filled in, the user can click the **Create** butto
 
 A user can edit one of the tests by clicking on the **Edit test** button. 
 
+import tests_edit_button from '/img/library/tests/tests_edit_button.png';
+
 <p align="center">
-  ![](/img/library/tests/tests_edit_button.png)
+  ![Edit a Test Button](/img/library/tests/tests_edit_button.png)
 </p>
 
 Then a modal like the one in the following image will appear.
 
+import tests_edit from '/img/library/tests/tests_edit.png';
+
 <p align="center">
-  ![](/img/library/tests/tests_edit.png)
+
+<img src={tests_edit} alt=" Edit a Test" style={{width: 500}} />
 </p>
 
 The user can update the following fields:
@@ -82,8 +87,11 @@ A user can delete one of the tests by clicking on the **Delete test** button.
 
 Then a modal like the one in the following image will appear.
 
+import tests_delete from '/img/library/tests/tests_delete.png';
+
 <p align="center">
-  ![](/img/library/tests/tests_delete.png)
+
+<img src={tests_delete} alt=" Delete a Test" style={{width: 500}} />
 </p>
 
 :::warning
@@ -102,8 +110,11 @@ A user can view one of the tests by clicking on the **View test details** button
 
 Then a modal like the one in the following image will appear.
 
+import tests_view from '/img/library/tests/tests_view.png';
+
 <p align="center">
-  ![](/img/library/tests/tests_view.png)
+
+<img src={tests_view} alt=" View a Test" style={{width: 500}} />
 </p>
 
 In the **View Test** modal, the user can review the test details, including parameters and evidence.
