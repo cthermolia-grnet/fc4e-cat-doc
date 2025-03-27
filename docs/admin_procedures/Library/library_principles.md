@@ -1,7 +1,7 @@
 ---
 id: library_principles
-title: Library / Principles
-sidebar_position: 4
+title: Library/Principles
+sidebar_position: 1
 ---
 
 ## Principles & Library   
