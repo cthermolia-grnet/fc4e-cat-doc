@@ -1,7 +1,7 @@
 ---
 id: library_criteria
 title: Library/Criteria
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ## Criteria & Library
