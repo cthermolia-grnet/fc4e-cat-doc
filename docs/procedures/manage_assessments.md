@@ -88,9 +88,13 @@ Users can export an assessment by clicking the **Export & Download Assessment** 
 
 ### Publishing an Assessment
 
-Users can publish an assessment to make it visible to others. To publish an assessment, click the **Publish Assessment** button ![](assets/assessment_publish.png). Only the creator or an administrator has the ability to publish an assessment. A confirmation dialog will open, prompting the user to confirm the action. To proceed, the user must click the **Publish** button.
+Users can publish an assessment to make it visible to others. To publish an assessment, click the **Publish Assessment** button ![](/img/assessments/assessment_publish.png). Only the creator or an administrator has the ability to publish an assessment. A confirmation dialog will open, prompting the user to confirm the action. To proceed, the user must click the **Publish** button.
 
-![Publishing Assessment](/img/assessments/assessment_publish_dialog.png)
+import assessment_publish_dialog from '/img/assessments/assessment_publish_dialog.png';
+
+<p align="center">
+<img src={assessment_publish_dialog} alt="Publishing Assessment" style={{width: 500}} />
+</p>
 
 ### Commenting on an Assessment 
 
@@ -108,12 +112,20 @@ A user can create and edit his comments ,while at the same time he may see the c
 Users can share an assessment with other users by clicking the "Share Assessment" button ![](/img/assessments/assessment_share_button.png). A dialog will open where the user can enter the email addresses of the users they wish to share the assessment with.
 After entering the emails, the user must click the **Confirm** button to share the assessment with each email provided. By clicking the confirm button, an email is send to all the emails defined by the user. Additionally, there is a section called **Already Shared With** that displays all the users the assessment has been shared with, along with their emails. This allows users to easily manage sharing settings and ensure the assessment is shared appropriately. 
 
-![Sharing Assessment](/img/assessments/assessment_share_dialog.png)
+import assessment_share_dialog from '/img/assessments/assessment_share_dialog.png';
 
+<p align="center">
+<img src={assessment_share_dialog} alt="Sharing Assessment" style={{width: 500}} />
+</p>
 
 ### Deleting an Assessment
 
 To delete an assessment, the user clicks the **Delete Assessment** button ![](/img/assessments/assessment_delete_button.png). A dialog will open asking for confirmation. To permanently delete the assessment, the user must click the **Confirm Delete** button. This ensures that assessments are deleted only after explicit confirmation, preventing accidental deletions.
 
-![Deleting Assessment](/img/assessments/assessment_delete_dialog.png)
+import assessment_delete_dialog from '/img/assessments/assessment_delete_dialog.png';
+
+<p align="center">
+<img src={assessment_delete_dialog} alt="Deleting Assessment" style={{width: 500}} />
+</p>
+
 
