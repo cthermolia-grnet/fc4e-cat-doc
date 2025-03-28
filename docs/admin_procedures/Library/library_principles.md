@@ -29,8 +29,11 @@ In this page the user can find the list of Principles supported by the service.
 
 To create a new principle, the user should click the **Create New** button, which will redirect them to the Principle modal screen.  
 
+import principles_create from '/img/library/principles_create.png';
+
 <p align="center">
-  ![](/img/library/principles_create.png)
+
+<img src={principles_create} alt="Creating a New Principle" style={{width: 500}} />
 </p>
 
 On the creation page, users must provide key details about the principle. 
@@ -50,8 +53,11 @@ If the user wishes to cancel the process, then he should click the **Cancel** bu
 
 A User can edit one of the principles by clicking on the **Edit** button ![](/img/buttons/buttons_edit.png) . Then a modal like the one in the following image will appear.
 
+import principles_edit from '/img/library/principles_edit.png';
+
 <p align="center">
-  ![](/img/library/principles_edit.png)
+
+<img src={principles_edit} alt="Edit a Principle" style={{width: 500}} />
 </p>
 
 The user can update the following fields:
@@ -68,8 +74,11 @@ If the user wishes to cancel the process, then he should click the **Cancel** bu
 
 A User can delete one of the principles by clicking on the **Delete** button ![](/img/buttons/buttons_delete.png) . Then a modal like the one in the following image will appear.
 
+import principles_delete from '/img/library/principles_delete.png';
+
 <p align="center">
-  ![](/img/library/principles_delete.png)
+
+<img src={principles_delete} alt="Delete a Principle" style={{width: 500}} />
 </p>
 
 :::warning
@@ -84,8 +93,10 @@ If the user wishes to cancel the process, then he should click the **Cancel** bu
 
 A User can view one of the principles by clicking on the **View** button ![](/img/buttons/buttons_view.png) . Then a modal like the one in the following image will appear.
 
-<p align="center">
-  ![](/img/library/principles_view.png)
-</p>
+import principles_view from '/img/library/principles_view.png';
 
+<p align="center">
+
+<img src={principles_view} alt="View a Principle" style={{width: 500}} />
+</p>
 

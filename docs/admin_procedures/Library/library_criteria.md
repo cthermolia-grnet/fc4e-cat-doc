@@ -33,9 +33,14 @@ A pop-up window will appear, and the administrator can fill in the criterion det
 - **Label**: The label associated with the criterion.
 - **Description**: A description of the criterion.
 - **Imperative**: Defines the level of the requirement, the criterion is necessary to comply or not.
+
+import criteria_add_new from '/img/library/criteria/criteria_add_new.png';
+
 <p align="center">
-![Manage Criteria]( /img/library/criteria/criteria_add_new.png)
+
+<img src={criteria_add_new} alt="Add a Principle" style={{width: 500}} />
 </p>
+
 
 ## Searching the Criteria List
 
@@ -51,7 +56,13 @@ Administrators can search for criteria by entering keywords in the search auto-c
 To view the details of a specific criterion, click the **Details** button: ![View Details Button]( /img/buttons/buttons_view_details.png).
 A pop-up window will display the criterion's detailed information.
 
-![View Criterion Details]( /img/library/criteria/criteria_view_details.png)
+import criteria_view_details from '/img/library/criteria/criteria_view_details.png';
+
+<p align="center">
+
+<img src={criteria_view_details} alt="criteria_view_details" style={{width: 500}} />
+</p>
+
 
 ## Editing a Criterion
 
@@ -61,9 +72,14 @@ A pop-up window will appear, allowing modification of the following criterion de
 - **Label**: The label associated with the criterion.
 - **Description**: A description of the criterion.
 - **Imperative**: Defines the level of the requirement; the criterion is necessary to comply.
+
+import criteria_edit from '/img/library/criteria/criteria_edit.png';
+
 <p align="center">
-![Edit](/img/library/criteria/criteria_edit.png)
+<img src={criteria_edit} alt="Editing a Criterion" style={{width: 500}} />
 </p>
+
+
 To save the changes, click the **Update** button: ![Update Button]( /img/buttons/buttons_update.png) 
 To cancel the changes, click the **Cancel** button: ![Cancel Button]( /img/buttons/buttons_cancel.png)
 
@@ -73,9 +89,13 @@ If the criterion is part of a published motivation assessment type, the changes 
 
 To delete a criterion, click the **Delete** button: ![Delete Button]( /img/buttons/buttons_delete_trash.png)
 A pop-up window will prompt the administrator to confirm the deletion. 
+
+import criteria_delete from '/img/library/criteria/criteria_delete.png';
+
 <p align="center">
-![Edit](/img/library/criteria/criteria_delete.png)
+<img src={criteria_delete} alt="Deleting a Criterion" style={{width: 500}} />
 </p>
+
 To proceed with the deletion, click the **Confirm Delete** button: ![Confirm Delete Button]( /img/buttons/buttons_confirm_delete.png).
 To cancel the deletion, click the **Cancel** button: ![Cancel Button]( /img/buttons/buttons_cancel.png).
 
