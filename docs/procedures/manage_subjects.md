@@ -27,6 +27,14 @@ To create a new subject, the user should click the **Create New** button, which 
   ![](/img/subjects/subjects_create.png)
 </p>
 
+import subjects_create from '/img/subjects/subjects_create.png';
+
+<p align="center">
+
+<img src={subjects_create} alt="Add a Subject" style={{width: 500}} />
+</p>
+
+
 On the creation page, users must provide key details about the subject they intend to assess. This ensures that each assessment is properly linked to a specific resource within FAIRCORE4EOSC CAT.
 
 The required information includes:
@@ -44,8 +52,11 @@ If the user wishes to cancel the process, then he should click the **Cancel** bu
 
 A User can edit one of the subjects he owns by clicking on the **Edit** button ![](/img/buttons/buttons_edit.png) . Then a modal like the one in the following image will appear.
 
+import subjects_edit from '/img/subjects/subjects_edit.png';
+
 <p align="center">
-  ![](/img/subjects/subjects_edit.png)
+
+<img src={subjects_edit} alt="Edit a Subject" style={{width: 500}} />
 </p>
 
 The user can update the following fields:
@@ -65,6 +76,14 @@ A User can delete one of the subjects he owns by clicking on the **Delete** butt
 <p align="center">
   ![](/img/subjects/subjects_delete.png)
 </p>
+
+import subjects_delete from '/img/subjects/subjects_delete.png';
+
+<p align="center">
+
+<img src={subjects_delete} alt="Delete a Subject" style={{width: 500}} />
+</p>
+
 
 The user can click the **Delete** button to delete the subject and then he will be redirected in the page with the list of subject he owns.
 If the user wishes to cancel the process, then he should click the **Cancel** button.
