@@ -1,6 +1,6 @@
 ---
 id: users
-title: Users in CAT 
+title: Users 
 sidebar_position: 1
 ---
 
