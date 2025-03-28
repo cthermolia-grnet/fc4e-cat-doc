@@ -1,6 +1,6 @@
 ---
 id: validations
-title: Validation Requests in CAT 
+title: Validation Requests
 sidebar_position: 2
 ---
 

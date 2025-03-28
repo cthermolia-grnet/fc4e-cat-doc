@@ -1,6 +1,6 @@
 ---
 id: subjects
-title: Subjects in CAT 
+title: Subjects
 sidebar_position: 3
 ---
 

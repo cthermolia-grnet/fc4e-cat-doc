@@ -1,6 +1,6 @@
 ---
 id: assessments
-title: Compliance Assessments in CAT 
+title: Motivations/Assessments
 sidebar_position: 4
 ---
 
