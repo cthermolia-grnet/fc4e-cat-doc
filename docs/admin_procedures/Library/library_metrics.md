@@ -39,5 +39,9 @@ To view the details of a specific metric, click the **Details** button: ![View D
 
 A pop-up window will display the metric's detailed information.
 
-![Metric Details]( /img/library/metrics/metrics_view_details.png)
+import metrics_view_details from '/img/library/metrics/metrics_view_details.png';
+
+<p align="center">
+<img src={metrics_view_details} alt="Viewing Metric Details" style={{width: 500}} />
+</p>
 
