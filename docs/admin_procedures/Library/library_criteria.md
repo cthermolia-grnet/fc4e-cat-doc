@@ -34,7 +34,7 @@ A pop-up window will appear, and the administrator can fill in the criterion det
 - **Description**: A description of the criterion.
 - **Imperative**: Defines the level of the requirement, the criterion is necessary to comply or not.
 
-import criteria_add_new from '/img/library/tests/criteria_add_new.png';
+import criteria_add_new from '/img/library/criteria/criteria_add_new.png';
 
 <p align="center">
 
@@ -56,7 +56,7 @@ Administrators can search for criteria by entering keywords in the search auto-c
 To view the details of a specific criterion, click the **Details** button: ![View Details Button]( /img/buttons/buttons_view_details.png).
 A pop-up window will display the criterion's detailed information.
 
-import criteria_view_details from '/img/library/tests/criteria_view_details.png';
+import criteria_view_details from '/img/library/criteria/criteria_view_details.png';
 
 <p align="center">
 
@@ -73,7 +73,7 @@ A pop-up window will appear, allowing modification of the following criterion de
 - **Description**: A description of the criterion.
 - **Imperative**: Defines the level of the requirement; the criterion is necessary to comply.
 
-import criteria_edit from '/img/library/tests/criteria_edit.png';
+import criteria_edit from '/img/library/criteria/criteria_edit.png';
 
 <p align="center">
 <img src={criteria_edit} alt="Editing a Criterion" style={{width: 500}} />
@@ -90,7 +90,7 @@ If the criterion is part of a published motivation assessment type, the changes 
 To delete a criterion, click the **Delete** button: ![Delete Button]( /img/buttons/buttons_delete_trash.png)
 A pop-up window will prompt the administrator to confirm the deletion. 
 
-import criteria_delete from '/img/library/tests/criteria_delete.png';
+import criteria_delete from '/img/library/criteria/criteria_delete.png';
 
 <p align="center">
 <img src={criteria_delete} alt="Deleting a Criterion" style={{width: 500}} />
