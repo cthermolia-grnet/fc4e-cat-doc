@@ -31,9 +31,15 @@ To update this information, the user should:
 1. Navigate to the **Profile** page.
 2. Click on the **Update Details** button to enable editing.
 
-![](/img/profile/view_update_details_step2.png)
+import view_update_details_step2 from '/img/profile/view_update_details_step2.png';
+
+<p align="center">
+
+<img src={view_update_details_step2} alt="Update Profile Information" style={{width: 250}} />
+</p>
+
 
 3. Update the fields with the required information (Name, Surname, Email, and ORCID ID(optional)).
 4. After making the necessary changes, click **Submit** to update the profile information.
 
-![](/img/profile/view_update_details_submit_step3.png)
+![Update Profile Information](/img/profile/view_update_details_submit_step3.png)
