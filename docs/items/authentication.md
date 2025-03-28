@@ -1,6 +1,6 @@
 ---
 id: authentication
-title: Authentication and Authorisation in CAT 
+title: Authentication/Authorisation 
 sidebar_position: 5
 ---
 
