@@ -12,10 +12,6 @@ As an admin, you have the ability to manage all validations within the system. T
 
 To manage validations, an admin should navigate to the **Validations** tab from the **Personal Menu** located on the left sidebar under the **Manage** section.
 
-<p align="center">
-  ![](/img/manage/admin_validations/admin_validations_menu.png)
-</p>
-
 On this page, the admin will see a list of all validations in the system.
 
 ### Search for Validations
@@ -79,8 +75,9 @@ An admin can approve or reject a validation when the status of the validation is
   ![](/img/manage/admin_validations/admin_validations_pending.png)
 </p>
 
-1. **Approve Validation**:
-    - The admin can click the **Accept Validation** button.
+#### Approve Validation
+
+An admin should click the **Accept Validation** button.
 
 <p align="center">
   ![](/img/manage/admin_validations/admin_validations_accept_button.png)
@@ -88,12 +85,15 @@ An admin can approve or reject a validation when the status of the validation is
 
 A modal will open for approval:
 
+import admin_validations_approve from '/img/manage/admin_validations/admin_validations_approve.png';
+
 <p align="center">
-  ![](/img/manage/admin_validations/admin_validations_approve.png)
+<img src={admin_validations_approve} alt="Approve Validation" style={{width: 400}} />
 </p>
 
-2. **Reject Validation**:
-    - The admin can click the **Reject Validation** button.
+#### Reject Validation 
+
+An admin should click the **Reject Validation** button.
 
 <p align="center">
   ![](/img/manage/admin_validations/admin_validations_reject_button.png)
@@ -102,9 +102,12 @@ A modal will open for approval:
 A modal will open for rejection. In this modal, the admin is required to provide a **Reason** for rejecting the validation:
 - **Reason (*):** This field is required. Admins must enter a brief reason for rejecting the validation (e.g., invalid request, user request, etc.).
 
+import admin_validations_reject from '/img/manage/admin_validations/admin_validations_reject.png';
+
 <p align="center">
-  ![](/img/manage/admin_validations/admin_validations_reject.png)
+<img src={admin_validations_reject} alt="Reject Validation" style={{width: 400}} />
 </p>
+
 
 :::warning
 Once a validation is **approved**, it cannot be rejected.
