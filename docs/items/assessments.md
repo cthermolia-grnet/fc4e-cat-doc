@@ -31,9 +31,9 @@ For example, an assessment submitted by a PID Owner, should comply PID Applicati
 <p> In the example of PID Policy, the Measurement criterio succeeds, if a test determining that the entity (PID) attributes are being maintained, passes the defined benchmark(YES/NO). The user can provide evidence to support the answer. </p>
 
 <b> Example of an assessment, of a PID Owner actor, complying with the standards. </b>
-![](/img/pidowner_policy_succeed.png) 
+![](/img/assessments/pidowner_policy_succeed.png) 
 
 
 <b> Example of an assessment, of a PID Owner actor, failing with the standards. </b>
-![](/img/pidowner_policy_fail.png) 
+![](/img/assessments/pidowner_policy_fail.png) 
 
