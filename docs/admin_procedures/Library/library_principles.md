@@ -29,11 +29,11 @@ In this page the user can find the list of Principles supported by the service.
 
 To create a new principle, the user should click the **Create New** button, which will redirect them to the Principle modal screen.  
 
-import principles_create from '/img/library/tests/principles_create.png.png';
+import principles_create from '/img/library/principles_create.png';
 
 <p align="center">
 
-<img src={principles_create.png} alt="Creating a New Principle" style={{width: 500}} />
+<img src={principles_create} alt="Creating a New Principle" style={{width: 500}} />
 </p>
 
 On the creation page, users must provide key details about the principle. 
@@ -53,7 +53,7 @@ If the user wishes to cancel the process, then he should click the **Cancel** bu
 
 A User can edit one of the principles by clicking on the **Edit** button ![](/img/buttons/buttons_edit.png) . Then a modal like the one in the following image will appear.
 
-import principles_edit from '/img/library/tests/principles_edit.png';
+import principles_edit from '/img/library/principles_edit.png';
 
 <p align="center">
 
@@ -74,7 +74,7 @@ If the user wishes to cancel the process, then he should click the **Cancel** bu
 
 A User can delete one of the principles by clicking on the **Delete** button ![](/img/buttons/buttons_delete.png) . Then a modal like the one in the following image will appear.
 
-import principles_delete from '/img/library/tests/principles_delete.png';
+import principles_delete from '/img/library/principles_delete.png';
 
 <p align="center">
 
@@ -93,7 +93,7 @@ If the user wishes to cancel the process, then he should click the **Cancel** bu
 
 A User can view one of the principles by clicking on the **View** button ![](/img/buttons/buttons_view.png) . Then a modal like the one in the following image will appear.
 
-import principles_view from '/img/library/tests/principles_view.png';
+import principles_view from '/img/library/principles_view.png';
 
 <p align="center">
 
