@@ -12,17 +12,14 @@ As an admin, you have the ability to manage users within the system. This includ
 
 To manage users, an admin should navigate to the **Users** tab from the **Personal Menu** located on the left sidebar under the **Manage** section.
 
-<p align="center">
-  ![](/img/manage/admin_users/admin_users_menu.png)
-</p>
-
 On this page, the admin will see a list of all registered users.
 
 ### Search for Users
 
 To search for users, the admin can use the **search bar** and filter options provided on the page. The search allows you to find users by the following criteria:
 
-1. **Type:**
+#### Search via Type
+
     - Search for users by type, such as **Verified**, **Identified**, or **Admin**.
     - Select the user type from the dropdown menu to filter the results.
 
@@ -30,7 +27,8 @@ To search for users, the admin can use the **search bar** and filter options pro
   ![](/img/manage/admin_users/admin_users_search_type.png)
 </p>
 
-2. **Status:**
+#### Search via Status
+
     - Search for users based on their status, such as **Active** or **Deleted**.
     - Select the desired status from the dropdown menu.
 
@@ -38,7 +36,8 @@ To search for users, the admin can use the **search bar** and filter options pro
   ![](/img/manage/admin_users/admin_users_search_status.png)
 </p>
 
-3. **Keywords:**
+#### Search via Keywords
+
     - You can also search by keywords (e.g., name, email, etc.).
     - Enter keywords into the search bar to filter users by name, email, or other relevant information.
 
@@ -58,8 +57,10 @@ An admin can view a user by clicking on the View user details button.
 
 A modal will open displaying detailed information about the user
 
+import admin_users_view from '/img/manage/admin_users/admin_users_view.png';
+
 <p align="center">
-  ![](/img/manage/admin_users/admin_users_view.png)
+<img src={admin_users_view} alt="View a User" style={{width: 500}} />
 </p>
 
 ### Delete a User
@@ -70,10 +71,13 @@ An admin can delete one of the tests by clicking on the Delete test button.
 </p>
 
 In this modal, the admin is required to provide a **Reason** for deleting the user.
+
 - **Reason (*):** This field is required. Admins must enter a brief reason for the deletion (e.g., violation of terms, user request, etc.). 
 
+import admin_users_delete from '/img/manage/admin_users/admin_users_delete.png';
+
 <p align="center">
-  ![](/img/manage/admin_users/admin_users_delete.png)
+<img src={admin_users_delete} alt="Delete a User" style={{width: 500}} />
 </p>
 
 After entering the reason, the admin can click the **Delete** button to delete the user. If they change their mind, they can click **Cancel**.
