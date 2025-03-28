@@ -1,6 +1,6 @@
 ---
 id: library_tests
-title: Library / Tests
+title: Library/Tests
 sidebar_position: 7
 ---
 
