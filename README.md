@@ -1,5 +1,5 @@
 # fc4e-cat-doc
-The documentation of the FC4E CAT Tookit
+The documentation of the FC4E CAT Tookit developed in FAIRCORE4EOSC project.
 
 ## Instructions to add content
 
@@ -85,6 +85,8 @@ npm install
 ```
 npm start
 ```
+
+
 
 4. Build
 ```
