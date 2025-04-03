@@ -7,7 +7,7 @@ Please add a new file or folder under folder docs.
 
 ### Add a single markdown file (ex. intro.md) 
 
-The markdown file consists of two parts 
+The markdown file consists of two parts:
 
 * the metadata of the file 
 * the actual content
